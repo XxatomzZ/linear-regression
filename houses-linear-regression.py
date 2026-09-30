@@ -13,7 +13,7 @@ data = pd.read_csv('home_dataset.csv')
 house_sizes = data['HouseSize'].values
 house_prices = data['HousePrice'].values
 
-# Visualize the data
+# Visualise the data
 plt.scatter(house_sizes, house_prices, marker='o', color='#8dd3c7')
 plt.title('House Prices vs. House Size')
 plt.xlabel('House Size (sq.ft)')
